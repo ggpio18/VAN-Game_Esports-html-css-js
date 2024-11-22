@@ -344,3 +344,42 @@
 
 
   /* hero */
+
+  .hero {
+    background: url("../images/hero-banner.jpg") no-repeat;
+    background-size: cover;
+    background-position: top center;
+    margin-top: 90px;
+    padding: var(--section-padding) 0;
+    height: 100vh;
+    max-height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-subtitle{
+    color: var(--white);
+    font-family: var(--ff-oswald);
+    font-size: var(--fs-7);
+    font-weight: var(--fw-500);
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    text-shadow: 0 70px hsla(0, 0%, 0%, 0.4);
+    margin-bottom: 15px;
+  }
+
+  .hero-title{margin-bottom: 10px;}
+
+  .btn-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero .btn-primary ion-icon { font-size: 25px; }
+
+
+  /* about */
