@@ -541,4 +541,31 @@
     border-radius: 4px;
   }
   
+  /* gallery */
+  .gallery {padding: var(--section-padding) 0;}
+
+  .gallery-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin: -15px;
+    overflow-x: auto;
+    padding-bottom: 15px;
+    scroll-snap-type: inline mandatory;
+    padding-inline: 15px;
+  }
+
+  .gallery-list li{
+    min-width: 95%;
+    scroll-snap-type: center;
+  }
+
+  .gallery-item img {
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.2);
+  }
+
+  /* team */
   
