@@ -729,3 +729,51 @@
   background: var(--orange);
   color: var(--white);
 }
+
+/* newsletter */
+.newsletter { padding: var(--section-padding) 0 120px;}
+
+.newsletter-card{
+    background: url("../images/newsletter-bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 25px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.newsletter-content {margin-bottom: 30px;}
+
+.newsletter-img{
+    width: max-content;
+    margin-inline: auto;
+    margin-bottom: 10px;
+}
+
+.newsletter-title { font-size: var(--fs-3); }
+
+.newsletter .input-field {
+    background: hsla(0, 0%, 0%, 0.2);
+    color: var(--white);
+    border: 1px solid var(--white);
+    font-size: var(--fs-10);
+    padding: 17px 25px;
+    margin-bottom: 15px;
+}
+
+.newsletter .input-field:focus{
+    background: hsla(0, 0%, 0%, 0.4);
+    outline: none;
+}
+
+.newsletter .input-field::placeholder {
+    color: inherit;
+    font-size: var(--fs-9);
+  }
+  
+  .newsletter .btn-secondary {
+    font-size: var(--fs-7);
+    margin-inline: auto;
+  }
+
+  /* footer */
